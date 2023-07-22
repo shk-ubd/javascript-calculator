@@ -29,6 +29,8 @@ function changeElementsColor(color) {
     allElements.forEach((element) => {
         element.style.color = color;
     });
+
+    document.getElementsByTagName('p')[0].style.color = "#a7a2a2"
 }
 
 function changebtnBackground(color) {
